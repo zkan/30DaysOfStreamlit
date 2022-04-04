@@ -5,6 +5,7 @@ To set up Python virtual environment:
 ```sh
 python -m venv stenv
 source stenv/bin/activiate
+```
 
 To install th Steamlit library:
 
