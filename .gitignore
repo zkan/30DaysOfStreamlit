@@ -1,3 +1,4 @@
 *.swp
 stenv
 ENV
+.DS_Store
