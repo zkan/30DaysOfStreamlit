@@ -23,7 +23,11 @@ print(df.head())
 add_sidebar = st.sidebar.selectbox("Me and Coffee", ("Me and Coffee", "Nothing",))
 if add_sidebar == "Me and Coffee":
     st.write("Me and Coffee")
-    avg_price = df["Price"].mean()
+
+    locations = set(df["Location"])
+    location_select = st.selectbox("Location", locations)
+
+    avg_price = df[df["Location"] == location_select]["Price"].mean()
     print(avg_price)
     st.metric("Avg Price", avg_price)
-    st.dataframe(df)
+    st.dataframe(df[df["Location"] == location_select])
