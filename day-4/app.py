@@ -22,14 +22,12 @@ print(df.head())
 
 add_sidebar = st.sidebar.selectbox("Me and Coffee", ("Me and Coffee", "Nothing",))
 if add_sidebar == "Me and Coffee":
-    st.write("Me and Coffee")
-
     locations = set(df["Location"])
     location_select = st.selectbox("Location", locations)
 
     avg_price = df[df["Location"] == location_select]["Price"].mean()
-    print(avg_price)
     st.metric("Avg Price", avg_price)
+
     st.dataframe(df[df["Location"] == location_select])
 
     fig = px.bar(df[df["Location"] == location_select], x="Price", y="Product", orientation="h")
