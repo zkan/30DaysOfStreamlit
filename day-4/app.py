@@ -19,3 +19,5 @@ def load_data():
 df = load_data()
 print(df.info())
 print(df.head())
+
+add_sidebar = st.sidebar.selectbox("Me and Coffee", ("Me and Coffee",))
