@@ -20,4 +20,6 @@ df = load_data()
 print(df.info())
 print(df.head())
 
-add_sidebar = st.sidebar.selectbox("Me and Coffee", ("Me and Coffee",))
+add_sidebar = st.sidebar.selectbox("Me and Coffee", ("Me and Coffee", "Nothing",))
+if add_sidebar == "Me and Coffee":
+    st.write("Me and Coffee")
