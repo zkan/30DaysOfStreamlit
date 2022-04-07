@@ -31,3 +31,6 @@ if add_sidebar == "Me and Coffee":
     print(avg_price)
     st.metric("Avg Price", avg_price)
     st.dataframe(df[df["Location"] == location_select])
+
+    fig = px.bar(df[df["Location"] == location_select], x="Price", y="Product", orientation="h")
+    st.plotly_chart(fig)
