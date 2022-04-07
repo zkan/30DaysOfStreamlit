@@ -26,3 +26,4 @@ if add_sidebar == "Me and Coffee":
     avg_price = df["Price"].mean()
     print(avg_price)
     st.metric("Avg Price", avg_price)
+    st.dataframe(df)
