@@ -7,3 +7,4 @@ See [30 Days of Streamlit](https://share.streamlit.io/streamlit/30days) for dail
 * [Day 3](day-3) - `st.button`
 * [Day 4](day-4) - Building Streamlit apps with Ken Jee
 * [Day 5](day-5) - `st.write`
+* [Day 6](day-6) - Uploading your Streamlit app to GitHub
