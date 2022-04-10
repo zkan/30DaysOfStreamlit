@@ -10,3 +10,4 @@ See [30 Days of Streamlit](https://share.streamlit.io/streamlit/30days) for dail
 * [Day 6](day-6) - Uploading your Streamlit app to GitHub
 * [Day 7](day-7) - Deploying your Streamlit app with Streamlit Cloud
 * [Day 8](day-8) - `st.slider`
+* [Day 9](day-9) - `st.line_chart`
