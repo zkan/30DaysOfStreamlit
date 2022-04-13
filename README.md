@@ -13,3 +13,4 @@ See [30 Days of Streamlit](https://share.streamlit.io/streamlit/30days) for dail
 * [Day 9](day-9) - `st.line_chart`
 * [Day 10](day-10) - `st.selectbox`
 * [Day 11](day-11) - `st.multiselect`
+* [Day 12](day-12) - `st.checkbox`
