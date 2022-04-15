@@ -15,3 +15,4 @@ See [30 Days of Streamlit](https://share.streamlit.io/streamlit/30days) for dail
 * [Day 11](day-11) - `st.multiselect`
 * [Day 12](day-12) - `st.checkbox`
 * [Day 13](day-13) - Spin up a cloud development environment
+* [Day 14](day-14) - Streamlit Components
