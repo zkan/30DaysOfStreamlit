@@ -18,3 +18,4 @@ See [30 Days of Streamlit](https://share.streamlit.io/streamlit/30days) for dail
 * [Day 14](day-14) - Streamlit Components
 * [Day 15](day-15) - `st.latex`
 * [Day 16](day-16) - Customizing the theme of Streamlit apps
+* [Day 17](day-17) - `st.secrets`
