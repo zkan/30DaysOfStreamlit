@@ -22,3 +22,4 @@ See [30 Days of Streamlit](https://share.streamlit.io/streamlit/30days) for dail
 * [Day 18](day-18) - `st.file_uploader`
 * [Day 19](day-19) - How to layout your Streamlit app
 * [Day 20](day-20) - Tech Twitter Space on What is Streamlit?
+* [Day 21](day-21) - `st.progress`
