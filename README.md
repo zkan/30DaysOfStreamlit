@@ -27,3 +27,4 @@ See [30 Days of Streamlit](https://share.streamlit.io/streamlit/30days) for dail
 * [Day 23](day-23) - `st.experimental_get_query_params`
 * [Day 24](day-24) - `st.cache`
 * [Day 25](day-25) - `st.session_state`
+* [Day 26](day-26) - How to use API by building the Bored API app
