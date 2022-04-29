@@ -8,4 +8,8 @@ streamlit run app.py
 
 Here is the result:
 
-![streamlit-shap](./img/streamlit-shap.png)
+![shap-waterfall-plot](./img/shap-waterfall-plot.png)
+
+![shap-beeswarm-plot](./img/shap-beeswarm-plot.png)
+
+![shap-force-plot](./img/shap-force-plot.png)
