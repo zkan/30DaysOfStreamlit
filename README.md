@@ -29,3 +29,4 @@ See [30 Days of Streamlit](https://share.streamlit.io/streamlit/30days) for dail
 * [Day 25](day-25) - `st.session_state`
 * [Day 26](day-26) - How to use API by building the Bored API app
 * [Day 27](day-27) - Build a draggable and resizable dashboard with Streamlit Elements
+* [Day 28](day-28) - streamlit-shap
